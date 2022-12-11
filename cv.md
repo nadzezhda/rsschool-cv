@@ -1,20 +1,20 @@
 # Nadya Matievskaya
 ## My Contacts
-Phone: +375 29 807-65-29
-E-mail: nmatievskaa925@gmail.com
-GitHub: nadzezhda
+<p> Phone: +375 29 807-65-29 </p>
+<p> E-mail: nmatievskaa925@gmail.com </p>
+<p> GitHub: nadzezhda </p>
 ## About Me
 I'm 20 years old. I study at BSU at the Faculty of Mechanics and Mathematics.
 ## Skills
-JavaScript
-Java
-C++
+<p>JavaScript</p>
+<p>Java</p>
+<p>C++</p>
 ## Code Example
-int[] arr = {1, 2, 3};
-for( int i : arr ){
-    System.out.println(i);
-}
+<p>int[] arr = {1, 2, 3};</p>
+<p>for( int i : arr ){</p>
+<p>   System.out.println(i);</p>
+<p>}</p>
 ## Languages
-Russian - native speaker
-Belarussian - native speaker
-English - A2 (B1 in process)
+<p>Russian - native speaker</p>
+<p>Belarussian - native speaker</p>
+<p>English - A2 (B1 in process)</p>
