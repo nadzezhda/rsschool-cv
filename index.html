@@ -1,1 +1,131 @@
-hello
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nadya Matievskaya CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="assets/img/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    </head>
+    <body class="page-body"></body>
+    <header>
+       <nav class="nav">
+         <ul class="top-menu">
+            <li><a href="#summery">Summery</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#code-example">Code</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>
+       </nav>
+     </header>
+    <main class="container">
+        <div class="left-side">
+          <figure class="figure--left-side">
+            <img
+              src="assets/img/Photo.jpg"
+              width="270"
+              height="260"
+              class="photo"
+              alt="Photo of Nadya Matievskaya"
+            />
+          </figure>
+            <section class="contact" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <ul class="contact__list">
+                  <li class="contact__item">
+                    Discord: <br>
+                    Nadya_Matievskaya#1375
+                  </li>
+                  <li class="contact__item">
+                    Email:<a href="nmatievskaa925@gmail.com">nmatievskaa925@gmail.com</a>
+                  </li>
+                  <li class="contact__item">
+                    Address:<br />
+                    <span>Minsk, Belarus</span>
+                  </li>
+                </ul>
+            </section>
+        </div>
+        <div class="right-side">
+          <section class="page-title">
+            <h1 class="main-title">Matievskaya Nadya</h1>
+            <p>Front-end web developer (Beginner)</p>
+          </section>
+          <figure class="figure--right-side">
+            <img
+            src="assets/img/Photo.jpg"
+            width="270"
+            height="260"
+            class="photo"
+            alt="Photo of Nadya Matievskaya"
+            />
+          </figure>
+          <section class="summery" id="summery">
+              <h2 class="section-title">Summery</h2>
+              <br>
+                I like to study and develop myself.
+                I like math, and I also like to read books, actively relax and </br>spend time with friends at cultural events.
+                I want to try to combine creativity and programming.
+              </p>
+            </section>
+            <section class="skills" id="skills">
+              <h2 class="section-title">Skills</h2>
+              <ul class="skills__list">
+                <li>C++</li>
+                <li>Java</li>
+                <li>JS(just a little)</li>
+                <li>HTML(just a little)</li>
+              </ul>
+            </section>
+            <section class="education" id="education">
+              <h2 class="section-title">Education</h2>
+              <br>
+               Student of BSU Faculty of Mechanics and Mathematics, 3rd year.
+              </p>
+            </section>
+            <section class="code-example" id="code-example">
+              <h2 class="section-title">Code example</h2>
+              <pre>
+                <code>
+                    <span style="color: rgb(242, 134, 45);">static int</span> <span class="func">gcd</span>(<span style="color: rgb(242, 134, 45);">int</span> a, <span style="color: rgb(242, 134, 45);">int</span> b) {
+                      <span style="color: rgb(242, 134, 45);">if</span> (b==0);
+                           <span style="color: rgb(242, 134, 45);">return</span> a;
+                      <span style="color: rgb(242, 134, 45);">else</span>
+                           <span style="color: rgb(242, 134, 45);">return</span> gcd(b, a%b);
+                      
+                    }
+                </code>
+              </pre>
+    
+            </section>
+            <section class="languages" id="languages">
+              <h2 class="section-title">Languages</h2>
+              <ul>
+                <li>English(A2)</li>
+                <li>Russian(native)</li>
+                <li>Belarussian(native)</li>
+              </ul>
+            </section>
+          </div>
+     </main>
+        <footer class="footer">
+          <a class="footer__github" href="https://github.com/nadzezhda" target="_blank">
+            My GitHub
+          </a>
+          <p class="footer__year">2022</p>
+          <a class="footer__rsschool" href="https://rs.school/js/" target="_blank">
+            <img
+              src="assets/img/rs_school_js.svg"
+              width="86"
+              height="32"
+              alt="RS School"
+            />
+          </a>
+        </footer>
+        <script src="rainbow-custom.min.js"></script>
+        <script src="script.js"></script>
+  </body>
+</html>
